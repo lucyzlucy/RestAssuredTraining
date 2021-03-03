@@ -1,4 +1,4 @@
-  def clients = ['user', 'pet']
+ def clients = ['user', 'pet']
 def groups = ['smoke', 'regression']
 properties([parameters([choice(choices: clients, description: 'Run on specific device', name: 'CLIENT'),
                         choice(choices: groups, description: 'Run specific group of tests', name: 'TEST_GROUP')]
@@ -9,7 +9,7 @@ properties([parameters([choice(choices: clients, description: 'Run on specific d
 // main task
 for(int i = 0; i < clients.size(); i++) {
     def client = clients[i]
-   stages {
+   node {
              stage ("Execute tests for ${client}") {
                         withMaven {
 bat "mvn clean test -Dclient=${client}\""
