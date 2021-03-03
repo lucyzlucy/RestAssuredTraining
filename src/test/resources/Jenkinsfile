@@ -10,10 +10,9 @@ for(int i = 0; i < clients.size(); i++) {
     def client = clients[i]
         node {
              stage ("Execute tests for ${client}") {
-                catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
                     sh "mvn clean test -Dclient=${client}\""
 
-                }
+
             }
             stage ("Aggregate reports for ${client}") {
                 sh "allure generate allure-results --clean -o allure-report"
