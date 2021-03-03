@@ -1,0 +1,115 @@
+{
+  "uid" : "48992c8826c2e62d",
+  "name" : "deleteEntityTest",
+  "fullName" : "CRUDTests.deleteEntityTest",
+  "historyId" : "9782c654867dc0c62e7b5c3690af674e",
+  "time" : {
+    "start" : 1614768688784,
+    "stop" : 1614768694640,
+    "duration" : 5856
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1614768687810,
+      "stop" : 1614768688684,
+      "duration" : 874
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1020ab835dcdf863",
+      "name" : "Request",
+      "source" : "1020ab835dcdf863.html",
+      "type" : "text/html",
+      "size" : 1235
+    }, {
+      "uid" : "34224b74ecf6548",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "34224b74ecf6548.html",
+      "type" : "text/html",
+      "size" : 706
+    }, {
+      "uid" : "111e3160d22e97e8",
+      "name" : "Request",
+      "source" : "111e3160d22e97e8.html",
+      "type" : "text/html",
+      "size" : 457
+    }, {
+      "uid" : "80db1b1f0a256358",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "80db1b1f0a256358.html",
+      "type" : "text/html",
+      "size" : 717
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "CRUDTests"
+  }, {
+    "name" : "testClass",
+    "value" : "CRUDTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteEntityTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "CRUD tests"
+  }, {
+    "name" : "suite",
+    "value" : "Verify CRUD for user"
+  }, {
+    "name" : "subSuite",
+    "value" : "CRUDTests"
+  }, {
+    "name" : "host",
+    "value" : "EPUALVIW0580"
+  }, {
+    "name" : "thread",
+    "value" : "10904@EPUALVIW0580.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "client",
+    "value" : "user"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48992c8826c2e62d.json",
+  "parameterValues" : [ "user" ]
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "c03edd5fbfc746d2",
+  "name" : "deleteEntityTest",
+  "time" : {
+    "start" : 1614768694846,
+    "stop" : 1614768696313,
+    "duration" : 1467
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48992c8826c2e62d",
+  "name" : "deleteEntityTest",
+  "time" : {
+    "start" : 1614768688784,
+    "stop" : 1614768694640,
+    "duration" : 5856
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

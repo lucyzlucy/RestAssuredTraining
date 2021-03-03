@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "EPUALVIW0580",
+    "children" : [ {
+      "name" : "10904@EPUALVIW0580.main(1)",
+      "children" : [ {
+        "name" : "deleteEntityTest",
+        "uid" : "48992c8826c2e62d",
+        "parentUid" : "35c8c5066644bd23a6021951616a83bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614768688784,
+          "stop" : 1614768694640,
+          "duration" : 5856
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "user" ]
+      }, {
+        "name" : "deleteEntityTest",
+        "uid" : "c03edd5fbfc746d2",
+        "parentUid" : "35c8c5066644bd23a6021951616a83bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614768694846,
+          "stop" : 1614768696313,
+          "duration" : 1467
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "pet" ]
+      } ],
+      "uid" : "35c8c5066644bd23a6021951616a83bb"
+    } ],
+    "uid" : "03ea8a178d496a8abb17a260ea069d7f"
+  } ]
+}

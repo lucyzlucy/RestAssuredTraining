@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "CRUDTests",
+    "children" : [ {
+      "name" : "deleteEntityTest",
+      "uid" : "48992c8826c2e62d",
+      "parentUid" : "112e4d7c4423c3c2c551d4f5229a874e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614768688784,
+        "stop" : 1614768694640,
+        "duration" : 5856
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "user" ]
+    }, {
+      "name" : "deleteEntityTest",
+      "uid" : "c03edd5fbfc746d2",
+      "parentUid" : "112e4d7c4423c3c2c551d4f5229a874e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614768694846,
+        "stop" : 1614768696313,
+        "duration" : 1467
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "pet" ]
+    } ],
+    "uid" : "112e4d7c4423c3c2c551d4f5229a874e"
+  } ]
+}

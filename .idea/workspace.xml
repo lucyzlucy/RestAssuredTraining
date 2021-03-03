@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6866c009-cba9-4fe6-be68-db14d4de9a32" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1pCWDxGtt1aQ80ivicGGc1pvUe2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="TestNG.CRUDTests.deleteEntityTest">
+    <configuration name="CRUDTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAndrii" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CRUDTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CRUDTests.deleteEntityTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAndrii" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CRUDTests" />
+      <option name="METHOD_NAME" value="deleteEntityTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CRUDTests.getEntityTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAndrii" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CRUDTests" />
+      <option name="METHOD_NAME" value="getEntityTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Liudmyla_Tuteiko/Documents/QA/Automation/ExampleProjects/RestAssuredAndrii/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAndrii" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAndrii" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.CRUDTests" />
+      <item itemvalue="TestNG.CRUDTests.deleteEntityTest" />
+      <item itemvalue="TestNG.CRUDTests.getEntityTest" />
+      <item itemvalue="TestNG.&lt;default&gt;" />
+      <item itemvalue="TestNG.C:/Users/Liudmyla_Tuteiko/Documents/QA/Automation/ExampleProjects/RestAssuredAndrii/testng.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.CRUDTests.deleteEntityTest" />
+        <item itemvalue="TestNG.C:/Users/Liudmyla_Tuteiko/Documents/QA/Automation/ExampleProjects/RestAssuredAndrii/testng.xml" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.C:/Users/Liudmyla_Tuteiko/Documents/QA/Automation/ExampleProjects/RestAssuredAndrii/testng.xml" />
+        <item itemvalue="TestNG.CRUDTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6866c009-cba9-4fe6-be68-db14d4de9a32" name="Default Changelist" comment="" />
+      <created>1614687436898</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614687436898</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2472" y="259" key="#Project_Structure" timestamp="1614764406552">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2472" y="259" key="#Project_Structure/0.0.1280.680/1920.0.1920.1200@1920.0.1920.1200" timestamp="1614764406552" />
+    <state x="2334" y="256" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614768104207">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2334" y="256" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1200@1920.0.1920.1200" timestamp="1614768104207" />
+    <state x="2653" y="404" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614703281845">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2653" y="404" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1920.1200@1920.0.1920.1200" timestamp="1614703281845" />
+    <state x="2685" y="317" key="#com.intellij.ide.util.MemberChooser" timestamp="1614696856182">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2685" y="317" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1920.1200@1920.0.1920.1200" timestamp="1614696856182" />
+    <state x="2660" y="342" key="FileChooserDialogImpl" timestamp="1614764664933">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2660" y="342" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1200@1920.0.1920.1200" timestamp="1614764664933" />
+    <state width="1877" height="410" key="GridCell.Tab.0.bottom" timestamp="1614771479728">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1877" height="410" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1200@1920.0.1920.1200" timestamp="1614771479728" />
+    <state width="1877" height="410" key="GridCell.Tab.0.center" timestamp="1614771479728">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1877" height="410" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1200@1920.0.1920.1200" timestamp="1614771479728" />
+    <state width="1877" height="410" key="GridCell.Tab.0.left" timestamp="1614771479728">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1877" height="410" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1200@1920.0.1920.1200" timestamp="1614771479728" />
+    <state width="1877" height="410" key="GridCell.Tab.0.right" timestamp="1614771479728">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1877" height="410" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1200@1920.0.1920.1200" timestamp="1614771479728" />
+    <state x="2410" y="256" key="Maven.ArtifactSearchDialog" timestamp="1614770172143">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2410" y="256" key="Maven.ArtifactSearchDialog/0.0.1280.680/1920.0.1920.1200@1920.0.1920.1200" timestamp="1614770172143" />
+    <state x="2381" y="243" key="SettingsEditor" timestamp="1614764479016">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2381" y="243" key="SettingsEditor/0.0.1280.680/1920.0.1920.1200@1920.0.1920.1200" timestamp="1614764479016" />
+    <state x="2576" y="425" key="com.intellij.ide.util.TipDialog" timestamp="1614759673441">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2576" y="425" key="com.intellij.ide.util.TipDialog/0.0.1280.680/1920.0.1920.1200@1920.0.1920.1200" timestamp="1614759673441" />
+    <state x="2536" y="280" key="run.anything.popup" timestamp="1614771325964">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2536" y="280" key="run.anything.popup/0.0.1280.680/1920.0.1920.1200@1920.0.1920.1200" timestamp="1614771325964" />
+  </component>
+</project>

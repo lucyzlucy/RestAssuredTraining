@@ -1,0 +1,51 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "CRUD tests",
+    "children" : [ {
+      "name" : "Verify CRUD for user",
+      "children" : [ {
+        "name" : "CRUDTests",
+        "children" : [ {
+          "name" : "deleteEntityTest",
+          "uid" : "48992c8826c2e62d",
+          "parentUid" : "2833b0afa8f6ccb1131cd68adb659779",
+          "status" : "passed",
+          "time" : {
+            "start" : 1614768688784,
+            "stop" : 1614768694640,
+            "duration" : 5856
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "user" ]
+        } ],
+        "uid" : "2833b0afa8f6ccb1131cd68adb659779"
+      } ],
+      "uid" : "36d04806bf5fd6c5c49495eaa9a063d7"
+    }, {
+      "name" : "Verify CRUD for Pet",
+      "children" : [ {
+        "name" : "CRUDTests",
+        "children" : [ {
+          "name" : "deleteEntityTest",
+          "uid" : "c03edd5fbfc746d2",
+          "parentUid" : "7e3aa8a883a644b90e531dcadb3379d7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1614768694846,
+            "stop" : 1614768696313,
+            "duration" : 1467
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "pet" ]
+        } ],
+        "uid" : "7e3aa8a883a644b90e531dcadb3379d7"
+      } ],
+      "uid" : "887abf21a8adc5c5f154435bd93ad083"
+    } ],
+    "uid" : "270d3e83229bdb6d08095bbfc7317bd8"
+  } ]
+}

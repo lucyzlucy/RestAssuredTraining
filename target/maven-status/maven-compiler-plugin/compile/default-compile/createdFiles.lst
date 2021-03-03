@@ -1,0 +1,9 @@
+utils\DataManager.class
+clients\UserClient.class
+utils\JsonParsingUtil.class
+models\User.class
+utils\PropertiesManager.class
+clients\PetClient.class
+clients\Client.class
+clients\IClient.class
+utils\FileReaderUtil.class
