@@ -8,7 +8,6 @@ properties([parameters([choice(choices: clients, description: 'Run on specific d
 // main task
 for(int i = 0; i < clients.size(); i++) {
     def client = clients[i]
-    tasks["${clients}"] = {
         node {
              stage ("Execute tests for ${client}") {
                 catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
@@ -25,7 +24,7 @@ for(int i = 0; i < clients.size(); i++) {
                              reportName: "TestReport_${client}", reportTitles: "Test report for ${client}"])
             }
 
-        }
+
     }
 }
 
