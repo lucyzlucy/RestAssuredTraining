@@ -1,12 +1,3 @@
-pipeline {
-   agent any
-
-   tools {
-      // Install the Maven version configured as "M3" and add it to the path.
-      maven "M3"
-   }
-  
-  
   def clients = ['user', 'pet']
 def groups = ['smoke', 'regression']
 properties([parameters([choice(choices: clients, description: 'Run on specific device', name: 'CLIENT'),
@@ -14,18 +5,16 @@ properties([parameters([choice(choices: clients, description: 'Run on specific d
                         )])
 
 
-   tools {
-      // Install the Maven version configured as "M3" and add it to the path.
-      maven "Maven"
-   }
+
 // main task
 for(int i = 0; i < clients.size(); i++) {
     def client = clients[i]
    stages {
              stage ("Execute tests for ${client}") {
-                    bat "mvn clean test -Dclient=${client}\""
+                        withMaven {
+bat "mvn clean test -Dclient=${client}\""
 
-
+                        }
             }
             stage ("Aggregate reports for ${client}") {
                 bat "allure generate allure-results --clean -o allure-report"
@@ -39,5 +28,5 @@ for(int i = 0; i < clients.size(); i++) {
 
     }
 }
-}
+
 
