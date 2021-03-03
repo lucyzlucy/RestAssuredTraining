@@ -1,4 +1,13 @@
-def clients = ['user', 'pet']
+pipeline {
+   agent any
+
+   tools {
+      // Install the Maven version configured as "M3" and add it to the path.
+      maven "M3"
+   }
+  
+  
+  def clients = ['user', 'pet']
 def groups = ['smoke', 'regression']
 properties([parameters([choice(choices: clients, description: 'Run on specific device', name: 'CLIENT'),
                         choice(choices: groups, description: 'Run specific group of tests', name: 'TEST_GROUP')]
@@ -12,7 +21,7 @@ properties([parameters([choice(choices: clients, description: 'Run on specific d
 // main task
 for(int i = 0; i < clients.size(); i++) {
     def client = clients[i]
-        node {
+   stages {
              stage ("Execute tests for ${client}") {
                     bat "mvn clean test -Dclient=${client}\""
 
@@ -29,5 +38,6 @@ for(int i = 0; i < clients.size(); i++) {
 
 
     }
+}
 }
 
