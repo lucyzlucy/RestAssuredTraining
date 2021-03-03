@@ -3,13 +3,7 @@ def groups = ['smoke', 'regression']
 properties([parameters([choice(choices: clients, description: 'Run on specific device', name: 'CLIENT'),
                         choice(choices: groups, description: 'Run specific group of tests', name: 'TEST_GROUP')]
                         )])
-// filter clients
-if ("${CLIENT}" == "all") {
-    // remove every occurrence of <all>
-    clients -= "all"
-} else {
-    clients = ["${CLIENT}"]
-}
+
 
 // main task
 for(int i = 0; i < clients.size(); i++) {
